@@ -99,7 +99,7 @@ if selection == 1:
     for i in cryptos:
         print(i)
 
-    convert= str(input("Enter the Crypto Currency you are trying to find the price of: "))
+    convert= str(input("Enter the Crypto Currency you're trying to find the price of: "))
 
     print()
 
