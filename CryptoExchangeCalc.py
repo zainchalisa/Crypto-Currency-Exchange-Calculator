@@ -131,7 +131,7 @@ if selection == 2:
     for i in cryptos:
         print(i)
 
-    convert= str(input("Enter the Crypto Currency you are trying to convert to: "))
+    convert= str(input("Enter the Crypto Currency name you're trying to exchange USD for: "))
 
     if convert == 'Bitcoin':
         usd = cash / bitCoinprice
@@ -164,7 +164,7 @@ if selection == 3:
 
     print()
 
-    convert= str(input("Enter the Crypto Currency you are trying to convert to USD: "))
+    convert= str(input("Enter the Crypto Currency you're trying to convert to USD: "))
 
     print()
 
